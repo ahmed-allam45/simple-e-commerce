@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body >
+    <nav>
+      <div class="col-3">
+        <img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png">
+      </div>
+      <div class="col-6 mob-none">
+        <div class="form-group search_div" style="margin-bottom: 0">
+          <i class="fas fa-search"></i>
+          <input type="text" class="form-control" id="" placeholder="search">
+        </div>
+      </div>
+      <div class="col-3 sub_icon">
+        <a href="" style="position:relative" class="mob-none"><i class="far fa-bell"></i><span class="badge badge-danger">5</span>
+        </a>
+        <a href="#" onclick="toggleFullScreen(document.body)" class="mob-none"><i class="fas fa-compress"></i></a>
+        <div class="dropdown">
+          <a class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img src="https://semantic-ui.com/images/avatar/large/elliot.jpg" alt=""></a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">log out</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-products" role="tab" aria-controls="pills-products" aria-selected="true"><i class="fas fa-cubes"></i> products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-user"></i> Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-Orders-tab" data-toggle="pill" href="#pills-Orders" role="tab" aria-controls="pills-Orders" aria-selected="false"><i class="fas fa-box-open"></i> Orders</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-products" role="tabpanel" aria-labelledby="pills-products-tab">
+          <div class="container">
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-4-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-4-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-4-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-4-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-4-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade pills-profile" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="container">
+            <div class="card co-md-3" style="width: 32%;    ">
+              <img class="card-img-top" src="https://semantic-ui.com/images/avatar/large/elliot.jpg" alt="Card image cap" width="100">
+              <div class="card-body">
+                <h5 class="card-title">Mohamed Ahmed Salah </h5>
+                <p class="card-text">Email : <span class="text-secondary">dsgsdgasg@sdgdg.com</span></p>
+                <p class="card-text">Mobile : <span class="text-secondary">01255666666</span></p>
+                <p class="card-text">Address : <span class="text-secondary">Alexandria , Egypt</span></p>
+              </div>
+            </div>
+            <div class="card co-md-6" style="    width: 62%;">
+              <div class="card-body">
+                <h5 class="card-title">change Password            </h5>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password again                    </label>
+                    <input type="password" class="form-control" id="" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-primary">change</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Orders" role="tabpanel" aria-labelledby="pills-Orders-tab">
+          <div class="container">
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-1-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-18-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-4-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-14-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img class="card-img-top" src="https://depot.mikado-themes.com/wp-content/uploads/2017/02/port-1-img-4-550x550.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text title">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="col-12 text-warning text-center">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <hr>
+                <h5 class="col-12 text-primary text-right text-center">88.00 EGP</h5>
+                <div class="overlay">
+                  <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

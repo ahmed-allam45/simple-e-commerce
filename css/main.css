@@ -1,0 +1,186 @@
+/* main color {`#808080 , ffdc73` , #fff} */
+
+* :not(i) {
+	font-family: 'Roboto', sans-serif;
+}
+
+body,
+html {
+	background-color: #f9f9f9;
+}
+
+nav {
+	width: 100%;
+	padding: 10px;
+	background: linear-gradient(45deg, #ffc517, #ffdc73) !important;
+	float: left;
+}
+
+nav>div {
+	float: left;
+	text-align: center
+}
+
+nav img {
+	width: 83px
+}
+
+nav .search_div {
+	position: relative
+}
+
+nav .search_div i {
+	position: absolute;
+	left: 15px;
+	top: 9px;
+	color: #fff;
+}
+
+nav input {
+	background-color: #ffffff94 !important;
+	border: none !important;
+	padding-left: 42px !important;
+	color: #fff
+}
+
+nav .sub_icon {
+	text-align: right
+}
+
+nav .sub_icon a {
+	margin: 14px;
+	font-size: 21px;
+	color: #fff;
+}
+
+nav .sub_icon .dropdown {
+	float: left;
+}
+
+nav .sub_icon .dropdown a {
+	color: #808080;
+	width: 100%
+}
+
+.dropdown-item {
+	width: 30px;
+	margin: 0 !important
+}
+
+nav .sub_icon .badge {
+	position: absolute;
+	left: 10px;
+	font-size: 10px;
+}
+
+nav .sub_icon img {
+	width: 40px;
+	border-radius: 50%
+}
+
+.nav-pills {
+	background-color: #fff;
+	padding: 16px;
+	box-shadow: 0 16px 16px 0 rgba(0, 0, 0, .04), 0 1px 5px 0 rgba(0, 0, 0, .02), 0 3px 1px -2px rgba(0, 0, 0, .02);
+}
+
+.nav-pills {
+	text-align: center
+}
+
+.nav-pills i {
+	display: block
+}
+
+.nav-link {
+	color: #808080
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	background-color: #808080;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #808080;
+	border: 2px solid #808080;
+	background: none
+}
+
+.card {
+	overflow: hidden;
+	float: left;
+	transform: scale(0.95)
+}
+
+a:hover {
+	color: #ffdc73;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 220, 115, 0.77);
+	z-index: 999;
+	height: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out
+}
+
+.overlay:hover {
+	opacity: 1;
+}
+
+.overlay a {
+	color: #808080;
+}
+
+.overlay i:hover {
+	color: #808080;
+	transform: scale(1.4)
+}
+
+.overlay i {
+	font-size: 56px;
+	width: 100%;
+	text-align: center;
+	margin-top: 70%;
+	transition: .5s ease-in-out
+}
+
+.pills-profile .card {
+	overflow: visible;
+	text-align: center;
+}
+
+.pills-profile img {
+	width: 200px;
+	border-radius: 50%;
+	margin-top: -20px;
+	margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+	.mob-none {
+		display: none
+	}
+	nav img {
+        float: left;
+        width: 66px
+	}
+	nav .sub_icon {
+		float: right;
+	}
+	.dropdown-toggle::after {
+		display: none;
+	}
+	nav .sub_icon .dropdown a {
+		margin: 0
+	}
+	#pills-tabContent .card {
+		width: 100% !important
+	}
+}
